@@ -6,7 +6,7 @@ import android.location.Location;
 import location.track.com.trackme.LocationView;
 
 /**
- * Created by infoobjects on 16-06-2017.
+ * Created by Farina Ali on 16-06-2017.
  */
 
 public interface LocationPresenter {

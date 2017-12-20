@@ -1,15 +1,16 @@
 package location.track.com.trackme;
 
+import android.app.Activity;
 import android.content.Context;
 import android.location.Location;
 
 /**
- * Created by infoobjects on 16-06-2017.
+ * Created by Farina Ali on 16-06-2017.
  */
 
 public interface LocationView {
 
-    Context getActivityContext();
+    Activity getActivityContext();
 
     void setRequestUpdateStatus(boolean b);
 

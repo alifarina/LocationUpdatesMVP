@@ -5,7 +5,7 @@ import android.location.Location;
 import location.track.com.trackme.LocationView;
 
 /**
- * Created by infoobjects on 16-06-2017.
+ * Created by Farina Ali on 16-06-2017.
  */
 
 public class LocationPresenterImpl implements LocationPresenter {
@@ -19,9 +19,7 @@ public class LocationPresenterImpl implements LocationPresenter {
     }
 
     public void initializeLocationServices() {
-        interactor.createLocationCallback();
-        interactor.createLocationRequest();
-        interactor.buildLocationSettingsRequest();
+       interactor.createAndBuildLocationRequest();
     }
 
     public void startGettingLocation() {
